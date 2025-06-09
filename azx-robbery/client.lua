@@ -12,7 +12,7 @@ exports['qb-target']:AddBoxZone("rob_house", robberyHouseCoords, 1.5, 1.5, {
     options = {
         {
             icon = "fas fa-door-open",
-            label = "اقتحام المنزل",
+            label = "سرقة المنزل",
             action = function()
                 TriggerServerEvent('qb-house:tryBreakIn')
             end,
